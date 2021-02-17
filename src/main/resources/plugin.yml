@@ -1,0 +1,17 @@
+name: PlotRating
+version: ${project.version}
+main: com.ambmt.plots.PlotRating
+api-version: 1.16
+depend: [ PlotSquared ]
+authors: [ ambmt ]
+description: Plot Rating Plugin
+commands:
+  plotratingreload:
+
+permissions:
+  plotrating.reload:
+    description: Allows you to reload pluign
+  plotrating.admin:
+    description: Access to all commands
+    default: op
+

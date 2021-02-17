@@ -1,0 +1,17 @@
+#PLEASE READ THE BELOW SECTION BEFORE CONFIGURING
+
+#BASIC FORMAT GOES LIKE THIS
+#SenderCommand + SenderName + SenderCommandAfter
+#PlotOwnerCommand + PlotOwnerName + plotOwnerCommandAfter
+#PLEASE LEAVE APPROPRIATE SPACES AND CHECK THAT YOUR COMMANDS ARE FORMATTED CORRECTLY
+#NO SPACES ARE NEEDED UNLESS IT IS INBETWEEN WORDS,CHECK EXAMPLES
+
+SenderCommand: "heal"
+SenderCommandAfter: ""
+PlotOwnerCommand: "feed"
+PlotOwnerCommandAfter: ""
+PlotOwnerOffline: ""
+PlotOwnerOfflineAfter: ""
+SendRatingMessage: true #ONLY TRUE OR FALSE
+SendErrorMessage: true #ONLY TRUE OR FALSE
+CooldownTime: 10 #In seconds
