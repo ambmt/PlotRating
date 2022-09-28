@@ -42,11 +42,7 @@ public class ReloadConfig implements CommandExecutor {
     }
 
     public boolean hasReload(Player player) {
-        if (player.hasPermission("plotrating.reload")) {
-            return true;
-        } else if (player.hasPermission("plotrating.admin")) {
-            return true;
-        }
+        if (player.hasPermission("plotrating.reload") || player.hasPermission("plotrating.admin"))  return true;
         return false;
     }
 }
